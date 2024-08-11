@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+@media(max-width:600px){
+    #board{
+        height: 270px;
+        width: 270px;
+    }
+}
+@media(max-width:600px){
+html{
+    height: 300px;
+    width: 300px;
+}
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url(mario-bg.jpg);
+    background-size: cover;
+}
+#board{
+    width: 540px;
+    height: 540px;
+    background-color: green;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(soil.png);
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+
+@media(max-width:600px){
+    #board div{
+        height: 90px;
+        width: 90px;
+    }
+}
+#board div {
+    width: 180px;
+    height: 180px;
+    background-image: url(pipe.png);
+    background-size: cover;
+}
+@media(max-width:600px){
+    #board div img{
+        height: 50px;
+        width: 50px;
+    }
+}
+#board div img {
+    width: 100px;
+    height: 100px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

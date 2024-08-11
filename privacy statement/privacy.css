@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(privacy-bg-img.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:600px){
+    html{
+      font-size: 35%;
+    }
+  }
+  
+
+
+.logo{
+    font-family: cursive;
+    font-size: 30px;
+    border-radius: 50%;
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.logo span{
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.text{
+    background-color: aliceblue;
+  padding-left: 2rem;
+   margin-top: 50px;
+   border-radius: 2rem;
+}
+.text h1{
+       font-family: cursive;
+       font-weight: bolder;
+       margin-left: 20px;
+       padding-top: 10px;
+       color: rgb(26, 26, 35);
+}
+ h4{
+    color: gray;
+    margin-left: 50px;
+
+}
+.paragraph h2{
+    color: rgb(45, 45, 206);
+    font-family: cursive;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.p1{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 20px;
+   margin-left: 30px;
+   padding-right: 40px;
+}
+.p1 span{
+    color: rgb(54, 54, 216);
+}
+.p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-right: 40px;
+}
+.p2 span{
+    color: rgb(54, 54, 216); ;
+}
+.p3{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 40px;
+}
+.p4{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.questions{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    
+}
+.questions h2{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: rgb(33, 59, 207);
+    font-family: cursive;
+    font-weight: bold;
+}
+.p5{
+    
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-right: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details{
+    margin-top: 2rem;
+    
+}
+.p6{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-right: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links {
+    margin-top: 5rem;
+}
+.links a{
+    display: inline-block;
+    text-align: center;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+.logo2{
+    display: inline-block;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    padding-top: 30px;
+    border: 3px solid rgb(233, 221, 157);
+    font-family: cursive;
+    font-weight: bold;
+}
+.logo2 span{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 40%;
+    color: blueviolet;
+}

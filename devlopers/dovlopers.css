@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 50px;
+    display: flex;
+    margin-left: 20px;   
+}
+img{
+      height: 100px;
+      width: 120px;
+}
+#logo2{
+    display: flex;
+    margin-top: 13px;
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    
+}
+
+.links a {
+   color: rgb(128, 4, 216);
+   font-family: fantasy;
+   font-size: large;
+   margin-top: 20px;
+   justify-content: space-between;
+   text-align: justify;
+   gap: 10px;
+
+}
+a:link{
+text-decoration: none;
+}
+
+
+
+.links{
+    display: flex;
+    margin-top: 15px;
+    text-align: right;
+    padding-left: 2rem;
+    gap: 29px;
+}
+.container {
+justify-content: center;
+text-align: center;
+display: inline-block;
+position: absolute;
+align-items: center;
+margin-top: 200px;
+
+}
+.container h3{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    padding-left: 11rem;
+    font-size: 50px;
+
+    color: green;
+
+}
+.container p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding-left: 10rem;
+    padding-top: 1rem;
+    font-size: 30px;
+}
+.container button{
+    margin-top: 30px;
+    height: 60px;
+    width: 200px;
+    color: azure;
+    font-size: 15px;
+    background-color: rgb(49, 49, 205);
+    border-radius: 3rem;
+    margin-left: 240px;
+    align-items: center;
+}
+.container button:hover{
+    transition: 2s;
+    width: 180px;
+    
+}
+.frist{
+    background-image: url(dovlo-bg-img.png);
+    height: 800px;
+    width: 100%;
+}
+.containt2 h3{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 28px;
+    text-align: center;
+    
+}
+
+@media(max-width: 600px)
+{
+    .box{
+       font-size: 25%;
+    }
+    
+}
+
+@media(max-width: 600px)
+{
+    .container1{
+       font-size: 25%;
+    }
+    
+}
+
+.box{
+    margin-top: 100px;
+    height: 400px;
+    width: 450px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+     margin-left: 3rem;
+}
+.box i{
+    height: 140px;
+    width: 124px;
+    font-size: 120px;
+    color: rgb(56, 63, 179);
+}
+.box h4{
+    font-size: 45px;
+    margin-top: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.box p{
+    height: 200px;
+    font-size: 20px;
+    margin-top: 15px;
+    
+}
+
+.points ul{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 35%;
+    
+    
+}
+#null img{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(null.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+
+
+.containt3 h3{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 28px;
+    text-align: center;
+    
+}
+
+
+.box2{
+    margin-top: 100px;
+    height: 400px;
+    width: 450px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding-left: 2rem;
+}
+.box2 i{
+    height: 140px;
+    width: 124px;
+    font-size: 120px;
+    color: rgb(56, 63, 179);
+}
+.box2 h4{
+    font-size: 45px;
+    margin-top: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.box2 p{
+    height: 200px;
+    font-size: 20px;
+    margin-top: 15px;
+    
+}
+.boxes2 button{
+    height: 55px;
+    width: 200px;
+   color: rgb(62, 62, 171);
+   border-radius: 3rem;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   background-color: white ;
+   border: 2px solid rgb(56, 56, 166);
+}
+#unique{
+    color: whitesmoke;
+    background-color: rgb(56, 56, 166);
+}
+.boxes2 button:hover{
+    font-size: 20px;
+    width: 250px;
+    color: blueviolet;
+    background-color: aqua;
+    transition: 2s;
+}
+footer{
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+.copyright{
+    display: flex;
+}
+.copyright p{
+    font-size: 17px;
+}
+.icons{
+    margin-left: 50%;
+}
+.icons i{
+    font-size: 20px;
+    margin-left: 2px;
+}
+.icons i:hover{
+    color: rgb(13, 196, 196);
+}
+.icons a{
+    margin-left: 3px;
+}

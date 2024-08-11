@@ -1,0 +1,93 @@
+.nav-item p{
+    padding-top: 10px;
+color: rgb(70, 144, 58);
+}
+
+.home-content{
+    display: wrap;
+    padding-top: 9rem;
+    padding-left: 5rem;
+}
+
+.home-content h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+     color: rgb(232, 3, 3);
+
+}
+
+
+
+.home-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+  
+    color: darkolivegreen;
+
+}
+.home-content h1:hover{
+    color: darkgreen;
+}
+.home-content span{
+    color:green;
+    font-family: cursive;
+    
+}
+.home-content span:hover{
+    color:rgb(33, 33, 155);
+}
+.home-content p {
+    font-size: 1rem;
+
+}
+
+.social-media a {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+   border-radius: 50%;
+
+    font-size: 3rem;
+    color: green;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5 ease;
+}
+@media(max-width:600px){
+  html{
+    font-size: 35%;
+  }
+}
+@media(max-width:600px){
+  .box{
+    height: 11rem;
+    width: 10rem;
+  }
+}
+
+
+.card{
+  display: inline-block;
+  
+}
+
+.card-body p{
+text-align: center;
+}
+.card h3{
+  text-align: center;
+}
+.div{
+  margin-left: 40px;
+}
+
+.colour{color: rgb(135, 193, 48);
+
+}
+.nav-link{
+  color: greenyellow;
+  
+}
+.nav-link{
+  padding-top: 15px;
+}

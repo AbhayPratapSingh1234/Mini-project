@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(cont-bg-img.jpg);
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    font-family: cursive;
+    font-size: 30px;
+    border-radius: 50%;
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid rgb(230, 54, 54);
+}
+.logo:hover{
+    rotate: Y 45deg;
+    background-color: aqua;
+}
+.logo span{
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.text{
+    background-color: aliceblue;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
+   margin-top: 50px;
+   border-radius: 2rem;
+  
+}
+@media(max-width:600px){
+    html{
+        font-size: 35%;
+    }
+}
+
+.text h1{
+       font-family: cursive;
+       font-weight: bolder;
+       margin-left: 25px;
+       padding-top: 10px;
+       color: rgb(26, 26, 35);
+}
+.p1{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 40px;
+}
+.p2{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 40px;
+}
+.p3{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 40px;
+}
+.p3 span{
+    color: rgb(67, 67, 217);
+}
+
+
+.links {
+    margin-top: 50px;
+}
+.links a{
+    display: inline-block;
+    text-align: center;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    color: rgb(200, 2, 255);
+}
+.links a:hover{
+    color: rgb(236, 48, 61);
+}
+.logo2{
+    display: inline-block;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    padding-top: 30px;
+    border: 3px solid rgb(233, 221, 157);
+    font-family: cursive;
+    font-weight: bold;
+}
+.logo2 span{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 40%;
+    color: blueviolet;
+}
+footer{
+    margin-top: 16%;
+}
